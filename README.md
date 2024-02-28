@@ -24,7 +24,7 @@ Download the required packages.
 ```
 npm install
 ```
-Start the server
+Start the server.
 ```
 npm start
 ```
