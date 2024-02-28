@@ -1,0 +1,39 @@
+{
+	"folders": {},
+	"connections": {
+		"mysql8-18ced2ea130-42db55856290a10a": {
+			"provider": "mysql",
+			"driver": "mysql8",
+			"name": "vaddb",
+			"save-password": true,
+			"configuration": {
+				"host": "localhost",
+				"port": "3306",
+				"database": "vaddb",
+				"url": "jdbc:mysql://localhost:3306/vaddb",
+				"configurationType": "MANUAL",
+				"home": "/usr/local/mysql-8.0.33-macos13-arm64",
+				"type": "dev",
+				"properties": {
+					"connectTimeout": "20000",
+					"rewriteBatchedStatements": "true",
+					"enabledTLSProtocols": "TLSv1,TLSv1.1,TLSv1.2",
+					"allowPublicKeyRetrieval": "TRUE"
+				},
+				"auth-model": "native",
+				"handlers": {}
+			}
+		}
+	},
+	"connection-types": {
+		"dev": {
+			"name": "Development",
+			"color": "255,255,255",
+			"description": "Regular development database",
+			"auto-commit": true,
+			"confirm-execute": false,
+			"confirm-data-change": false,
+			"auto-close-transactions": false
+		}
+	}
+}
